@@ -47,6 +47,12 @@
 //  Wanneer je de site naar github pusht worden deze bestanden
 //  automatisch mee gepubliceerd.
 //
+//  LET OP als je via GitHub Pages host (zie src/base-path.ts):
+//  de site draait dan in een submap (bv. /jouw-repo/). Vervang in dat
+//  geval de paden hierboven door, bijvoorbeeld:
+//     cover: BASE_PATH + "images/project-01/cover.jpg"
+//  (BASE_PATH staat al klaar om te importeren uit "./base-path")
+//
 // ============================================================
 
 import { Link, Outlet, useRouter, useRouterState } from "@tanstack/react-router";
