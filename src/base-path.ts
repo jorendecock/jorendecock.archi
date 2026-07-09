@@ -22,4 +22,4 @@
 //  dan gewoon op "/".
 // ============================================================
 
-export const BASE_PATH = "/REPO-NAAM/";
+export const BASE_PATH = "/https://jorendecock.github.io/jorendecock.archi/";
